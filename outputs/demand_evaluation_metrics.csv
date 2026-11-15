@@ -1,0 +1,4 @@
+Model,Val MAE,Val RMSE,Val WAPE,Test MAE,Test RMSE,Test WAPE
+Baseline (Moving Average),0.0,0.0,0.0,0.0,0.0,0.0
+Linear Regression,0.000163,0.000501,0.220207,0.000136,0.000456,0.184248
+Random Forest Regressor,6e-06,0.000227,0.008333,0.0,0.0,0.0

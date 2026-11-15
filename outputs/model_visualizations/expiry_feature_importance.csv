@@ -1,0 +1,23 @@
+feature,importance
+days_to_expiry,0.8148753192679247
+projected_unsold_quantity,0.04750598210010918
+batch_quantity_remaining,0.04151058056141694
+unit_price_inr,0.03579482244992872
+category_Respiratory,0.010750324440384543
+category_Diabetes,0.009694927342271393
+category_Analgesic,0.008798716548023734
+category_Gastrointestinal,0.0038508446807778607
+category_Ophthalmic,0.0033055121942476492
+category_Hygiene,0.00303945800288283
+category_Antihistamine,0.002634685550615183
+category_Vitamin,0.0026266864262658534
+category_First Aid,0.0024757847865903054
+category_Electrolyte,0.002467568572150773
+category_Diagnostic,0.002113103826939843
+category_Device,0.002044942110965408
+category_Dermatology,0.0020045849105630805
+category_Cardiovascular,0.0017787005011213003
+category_Antibiotic,0.0013499147439419337
+projected_unsold_ratio,0.0006971755893484239
+average_daily_sales_30d,0.00040236237628270456
+projected_demand_before_expiry,0.0002780030172474207

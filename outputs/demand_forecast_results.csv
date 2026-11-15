@@ -1,0 +1,351 @@
+product_id,medicine_name,category,unit_price_inr,forecast_date,forecast_day,predicted_demand,projected_stock_on_hand
+MED001,Paracetamol 500mg,Analgesic,2.5,2026-07-20,1,0.0,169.0
+MED001,Paracetamol 500mg,Analgesic,2.5,2026-07-21,2,0.0,169.0
+MED001,Paracetamol 500mg,Analgesic,2.5,2026-07-22,3,0.0,169.0
+MED001,Paracetamol 500mg,Analgesic,2.5,2026-07-23,4,0.0,169.0
+MED001,Paracetamol 500mg,Analgesic,2.5,2026-07-24,5,0.0,169.0
+MED001,Paracetamol 500mg,Analgesic,2.5,2026-07-25,6,0.0,169.0
+MED001,Paracetamol 500mg,Analgesic,2.5,2026-07-26,7,0.0,169.0
+MED002,Ibuprofen 400mg,Analgesic,4.0,2026-07-20,1,0.0,141.0
+MED002,Ibuprofen 400mg,Analgesic,4.0,2026-07-21,2,0.0,141.0
+MED002,Ibuprofen 400mg,Analgesic,4.0,2026-07-22,3,0.0,141.0
+MED002,Ibuprofen 400mg,Analgesic,4.0,2026-07-23,4,0.0,141.0
+MED002,Ibuprofen 400mg,Analgesic,4.0,2026-07-24,5,0.0,141.0
+MED002,Ibuprofen 400mg,Analgesic,4.0,2026-07-25,6,0.0,141.0
+MED002,Ibuprofen 400mg,Analgesic,4.0,2026-07-26,7,0.0,141.0
+MED003,Cetirizine 10mg,Antihistamine,3.0,2026-07-20,1,0.0,98.0
+MED003,Cetirizine 10mg,Antihistamine,3.0,2026-07-21,2,0.0,98.0
+MED003,Cetirizine 10mg,Antihistamine,3.0,2026-07-22,3,0.0,98.0
+MED003,Cetirizine 10mg,Antihistamine,3.0,2026-07-23,4,0.0,98.0
+MED003,Cetirizine 10mg,Antihistamine,3.0,2026-07-24,5,0.0,98.0
+MED003,Cetirizine 10mg,Antihistamine,3.0,2026-07-25,6,0.0,98.0
+MED003,Cetirizine 10mg,Antihistamine,3.0,2026-07-26,7,0.0,98.0
+MED004,Azithromycin 500mg,Antibiotic,12.0,2026-07-20,1,0.0,153.0
+MED004,Azithromycin 500mg,Antibiotic,12.0,2026-07-21,2,0.0,153.0
+MED004,Azithromycin 500mg,Antibiotic,12.0,2026-07-22,3,0.0,153.0
+MED004,Azithromycin 500mg,Antibiotic,12.0,2026-07-23,4,0.0,153.0
+MED004,Azithromycin 500mg,Antibiotic,12.0,2026-07-24,5,0.0,153.0
+MED004,Azithromycin 500mg,Antibiotic,12.0,2026-07-25,6,0.0,153.0
+MED004,Azithromycin 500mg,Antibiotic,12.0,2026-07-26,7,0.0,153.0
+MED005,Amoxicillin 500mg,Antibiotic,6.5,2026-07-20,1,0.0,185.0
+MED005,Amoxicillin 500mg,Antibiotic,6.5,2026-07-21,2,0.0,185.0
+MED005,Amoxicillin 500mg,Antibiotic,6.5,2026-07-22,3,0.0,185.0
+MED005,Amoxicillin 500mg,Antibiotic,6.5,2026-07-23,4,0.0,185.0
+MED005,Amoxicillin 500mg,Antibiotic,6.5,2026-07-24,5,0.0,185.0
+MED005,Amoxicillin 500mg,Antibiotic,6.5,2026-07-25,6,0.0,185.0
+MED005,Amoxicillin 500mg,Antibiotic,6.5,2026-07-26,7,0.0,185.0
+MED006,ORS Sachet,Electrolyte,8.0,2026-07-20,1,0.0,187.0
+MED006,ORS Sachet,Electrolyte,8.0,2026-07-21,2,0.0,187.0
+MED006,ORS Sachet,Electrolyte,8.0,2026-07-22,3,0.0,187.0
+MED006,ORS Sachet,Electrolyte,8.0,2026-07-23,4,0.0,187.0
+MED006,ORS Sachet,Electrolyte,8.0,2026-07-24,5,0.0,187.0
+MED006,ORS Sachet,Electrolyte,8.0,2026-07-25,6,0.0,187.0
+MED006,ORS Sachet,Electrolyte,8.0,2026-07-26,7,0.0,187.0
+MED007,Vitamin C 500mg,Vitamin,2.0,2026-07-20,1,0.0,172.0
+MED007,Vitamin C 500mg,Vitamin,2.0,2026-07-21,2,0.0,172.0
+MED007,Vitamin C 500mg,Vitamin,2.0,2026-07-22,3,0.0,172.0
+MED007,Vitamin C 500mg,Vitamin,2.0,2026-07-23,4,0.0,172.0
+MED007,Vitamin C 500mg,Vitamin,2.0,2026-07-24,5,0.0,172.0
+MED007,Vitamin C 500mg,Vitamin,2.0,2026-07-25,6,0.0,172.0
+MED007,Vitamin C 500mg,Vitamin,2.0,2026-07-26,7,0.0,172.0
+MED008,Multivitamin Tablets,Vitamin,7.0,2026-07-20,1,0.0,104.0
+MED008,Multivitamin Tablets,Vitamin,7.0,2026-07-21,2,0.0,104.0
+MED008,Multivitamin Tablets,Vitamin,7.0,2026-07-22,3,0.0,104.0
+MED008,Multivitamin Tablets,Vitamin,7.0,2026-07-23,4,0.0,104.0
+MED008,Multivitamin Tablets,Vitamin,7.0,2026-07-24,5,0.0,104.0
+MED008,Multivitamin Tablets,Vitamin,7.0,2026-07-25,6,0.0,104.0
+MED008,Multivitamin Tablets,Vitamin,7.0,2026-07-26,7,0.0,104.0
+MED009,Omeprazole 20mg,Gastrointestinal,5.0,2026-07-20,1,0.0,193.0
+MED009,Omeprazole 20mg,Gastrointestinal,5.0,2026-07-21,2,0.0,193.0
+MED009,Omeprazole 20mg,Gastrointestinal,5.0,2026-07-22,3,0.0,193.0
+MED009,Omeprazole 20mg,Gastrointestinal,5.0,2026-07-23,4,0.0,193.0
+MED009,Omeprazole 20mg,Gastrointestinal,5.0,2026-07-24,5,0.0,193.0
+MED009,Omeprazole 20mg,Gastrointestinal,5.0,2026-07-25,6,0.0,193.0
+MED009,Omeprazole 20mg,Gastrointestinal,5.0,2026-07-26,7,0.0,193.0
+MED010,Pantoprazole 40mg,Gastrointestinal,4.5,2026-07-20,1,0.0,150.0
+MED010,Pantoprazole 40mg,Gastrointestinal,4.5,2026-07-21,2,0.0,150.0
+MED010,Pantoprazole 40mg,Gastrointestinal,4.5,2026-07-22,3,0.0,150.0
+MED010,Pantoprazole 40mg,Gastrointestinal,4.5,2026-07-23,4,0.0,150.0
+MED010,Pantoprazole 40mg,Gastrointestinal,4.5,2026-07-24,5,0.0,150.0
+MED010,Pantoprazole 40mg,Gastrointestinal,4.5,2026-07-25,6,0.0,150.0
+MED010,Pantoprazole 40mg,Gastrointestinal,4.5,2026-07-26,7,0.0,150.0
+MED011,Metformin 500mg,Diabetes,3.0,2026-07-20,1,0.0,97.0
+MED011,Metformin 500mg,Diabetes,3.0,2026-07-21,2,0.0,97.0
+MED011,Metformin 500mg,Diabetes,3.0,2026-07-22,3,0.0,97.0
+MED011,Metformin 500mg,Diabetes,3.0,2026-07-23,4,0.0,97.0
+MED011,Metformin 500mg,Diabetes,3.0,2026-07-24,5,0.0,97.0
+MED011,Metformin 500mg,Diabetes,3.0,2026-07-25,6,0.0,97.0
+MED011,Metformin 500mg,Diabetes,3.0,2026-07-26,7,0.0,97.0
+MED012,Amlodipine 5mg,Cardiovascular,2.8,2026-07-20,1,0.0,153.0
+MED012,Amlodipine 5mg,Cardiovascular,2.8,2026-07-21,2,0.0,153.0
+MED012,Amlodipine 5mg,Cardiovascular,2.8,2026-07-22,3,0.0,153.0
+MED012,Amlodipine 5mg,Cardiovascular,2.8,2026-07-23,4,0.0,153.0
+MED012,Amlodipine 5mg,Cardiovascular,2.8,2026-07-24,5,0.0,153.0
+MED012,Amlodipine 5mg,Cardiovascular,2.8,2026-07-25,6,0.0,153.0
+MED012,Amlodipine 5mg,Cardiovascular,2.8,2026-07-26,7,0.0,153.0
+MED013,Atorvastatin 10mg,Cardiovascular,5.5,2026-07-20,1,0.0,108.0
+MED013,Atorvastatin 10mg,Cardiovascular,5.5,2026-07-21,2,0.0,108.0
+MED013,Atorvastatin 10mg,Cardiovascular,5.5,2026-07-22,3,0.0,108.0
+MED013,Atorvastatin 10mg,Cardiovascular,5.5,2026-07-23,4,0.0,108.0
+MED013,Atorvastatin 10mg,Cardiovascular,5.5,2026-07-24,5,0.0,108.0
+MED013,Atorvastatin 10mg,Cardiovascular,5.5,2026-07-25,6,0.0,108.0
+MED013,Atorvastatin 10mg,Cardiovascular,5.5,2026-07-26,7,0.0,108.0
+MED014,Salbutamol Inhaler,Respiratory,35.0,2026-07-20,1,0.0,117.0
+MED014,Salbutamol Inhaler,Respiratory,35.0,2026-07-21,2,0.0,117.0
+MED014,Salbutamol Inhaler,Respiratory,35.0,2026-07-22,3,0.0,117.0
+MED014,Salbutamol Inhaler,Respiratory,35.0,2026-07-23,4,0.0,117.0
+MED014,Salbutamol Inhaler,Respiratory,35.0,2026-07-24,5,0.0,117.0
+MED014,Salbutamol Inhaler,Respiratory,35.0,2026-07-25,6,0.0,117.0
+MED014,Salbutamol Inhaler,Respiratory,35.0,2026-07-26,7,0.0,117.0
+MED015,Cough Syrup 100ml,Respiratory,28.0,2026-07-20,1,0.0,126.0
+MED015,Cough Syrup 100ml,Respiratory,28.0,2026-07-21,2,0.0,126.0
+MED015,Cough Syrup 100ml,Respiratory,28.0,2026-07-22,3,0.0,126.0
+MED015,Cough Syrup 100ml,Respiratory,28.0,2026-07-23,4,0.0,126.0
+MED015,Cough Syrup 100ml,Respiratory,28.0,2026-07-24,5,0.0,126.0
+MED015,Cough Syrup 100ml,Respiratory,28.0,2026-07-25,6,0.0,126.0
+MED015,Cough Syrup 100ml,Respiratory,28.0,2026-07-26,7,0.0,126.0
+MED016,Loratadine 10mg,Antihistamine,3.5,2026-07-20,1,0.0,120.0
+MED016,Loratadine 10mg,Antihistamine,3.5,2026-07-21,2,0.0,120.0
+MED016,Loratadine 10mg,Antihistamine,3.5,2026-07-22,3,0.0,120.0
+MED016,Loratadine 10mg,Antihistamine,3.5,2026-07-23,4,0.0,120.0
+MED016,Loratadine 10mg,Antihistamine,3.5,2026-07-24,5,0.0,120.0
+MED016,Loratadine 10mg,Antihistamine,3.5,2026-07-25,6,0.0,120.0
+MED016,Loratadine 10mg,Antihistamine,3.5,2026-07-26,7,0.0,120.0
+MED017,Diclofenac Gel 30g,Analgesic,22.0,2026-07-20,1,0.0,92.0
+MED017,Diclofenac Gel 30g,Analgesic,22.0,2026-07-21,2,0.0,92.0
+MED017,Diclofenac Gel 30g,Analgesic,22.0,2026-07-22,3,0.0,92.0
+MED017,Diclofenac Gel 30g,Analgesic,22.0,2026-07-23,4,0.0,92.0
+MED017,Diclofenac Gel 30g,Analgesic,22.0,2026-07-24,5,0.0,92.0
+MED017,Diclofenac Gel 30g,Analgesic,22.0,2026-07-25,6,0.0,92.0
+MED017,Diclofenac Gel 30g,Analgesic,22.0,2026-07-26,7,0.0,92.0
+MED018,Antacid Suspension,Gastrointestinal,18.0,2026-07-20,1,0.0,81.0
+MED018,Antacid Suspension,Gastrointestinal,18.0,2026-07-21,2,0.0,81.0
+MED018,Antacid Suspension,Gastrointestinal,18.0,2026-07-22,3,0.0,81.0
+MED018,Antacid Suspension,Gastrointestinal,18.0,2026-07-23,4,0.0,81.0
+MED018,Antacid Suspension,Gastrointestinal,18.0,2026-07-24,5,0.0,81.0
+MED018,Antacid Suspension,Gastrointestinal,18.0,2026-07-25,6,0.0,81.0
+MED018,Antacid Suspension,Gastrointestinal,18.0,2026-07-26,7,0.0,81.0
+MED019,Iron + Folic Acid,Vitamin,4.0,2026-07-20,1,0.0,172.0
+MED019,Iron + Folic Acid,Vitamin,4.0,2026-07-21,2,0.0,172.0
+MED019,Iron + Folic Acid,Vitamin,4.0,2026-07-22,3,0.0,172.0
+MED019,Iron + Folic Acid,Vitamin,4.0,2026-07-23,4,0.0,172.0
+MED019,Iron + Folic Acid,Vitamin,4.0,2026-07-24,5,0.0,172.0
+MED019,Iron + Folic Acid,Vitamin,4.0,2026-07-25,6,0.0,172.0
+MED019,Iron + Folic Acid,Vitamin,4.0,2026-07-26,7,0.0,172.0
+MED020,Calcium Tablets,Vitamin,6.0,2026-07-20,1,0.0,190.0
+MED020,Calcium Tablets,Vitamin,6.0,2026-07-21,2,0.0,190.0
+MED020,Calcium Tablets,Vitamin,6.0,2026-07-22,3,0.0,190.0
+MED020,Calcium Tablets,Vitamin,6.0,2026-07-23,4,0.0,190.0
+MED020,Calcium Tablets,Vitamin,6.0,2026-07-24,5,0.0,190.0
+MED020,Calcium Tablets,Vitamin,6.0,2026-07-25,6,0.0,190.0
+MED020,Calcium Tablets,Vitamin,6.0,2026-07-26,7,0.0,190.0
+MED021,Doxycycline 100mg,Antibiotic,8.0,2026-07-20,1,0.0,87.0
+MED021,Doxycycline 100mg,Antibiotic,8.0,2026-07-21,2,0.0,87.0
+MED021,Doxycycline 100mg,Antibiotic,8.0,2026-07-22,3,0.0,87.0
+MED021,Doxycycline 100mg,Antibiotic,8.0,2026-07-23,4,0.0,87.0
+MED021,Doxycycline 100mg,Antibiotic,8.0,2026-07-24,5,0.0,87.0
+MED021,Doxycycline 100mg,Antibiotic,8.0,2026-07-25,6,0.0,87.0
+MED021,Doxycycline 100mg,Antibiotic,8.0,2026-07-26,7,0.0,87.0
+MED022,Cefixime 200mg,Antibiotic,10.0,2026-07-20,1,0.0,101.0
+MED022,Cefixime 200mg,Antibiotic,10.0,2026-07-21,2,0.0,101.0
+MED022,Cefixime 200mg,Antibiotic,10.0,2026-07-22,3,0.0,101.0
+MED022,Cefixime 200mg,Antibiotic,10.0,2026-07-23,4,0.0,101.0
+MED022,Cefixime 200mg,Antibiotic,10.0,2026-07-24,5,0.0,101.0
+MED022,Cefixime 200mg,Antibiotic,10.0,2026-07-25,6,0.0,101.0
+MED022,Cefixime 200mg,Antibiotic,10.0,2026-07-26,7,0.0,101.0
+MED023,Eye Drops 10ml,Ophthalmic,24.0,2026-07-20,1,0.0,127.0
+MED023,Eye Drops 10ml,Ophthalmic,24.0,2026-07-21,2,0.0,127.0
+MED023,Eye Drops 10ml,Ophthalmic,24.0,2026-07-22,3,0.0,127.0
+MED023,Eye Drops 10ml,Ophthalmic,24.0,2026-07-23,4,0.0,127.0
+MED023,Eye Drops 10ml,Ophthalmic,24.0,2026-07-24,5,0.0,127.0
+MED023,Eye Drops 10ml,Ophthalmic,24.0,2026-07-25,6,0.0,127.0
+MED023,Eye Drops 10ml,Ophthalmic,24.0,2026-07-26,7,0.0,127.0
+MED024,Nasal Spray 10ml,Respiratory,32.0,2026-07-20,1,0.0,109.0
+MED024,Nasal Spray 10ml,Respiratory,32.0,2026-07-21,2,0.0,109.0
+MED024,Nasal Spray 10ml,Respiratory,32.0,2026-07-22,3,0.0,109.0
+MED024,Nasal Spray 10ml,Respiratory,32.0,2026-07-23,4,0.0,109.0
+MED024,Nasal Spray 10ml,Respiratory,32.0,2026-07-24,5,0.0,109.0
+MED024,Nasal Spray 10ml,Respiratory,32.0,2026-07-25,6,0.0,109.0
+MED024,Nasal Spray 10ml,Respiratory,32.0,2026-07-26,7,0.0,109.0
+MED025,Loperamide 2mg,Gastrointestinal,3.0,2026-07-20,1,0.0,91.0
+MED025,Loperamide 2mg,Gastrointestinal,3.0,2026-07-21,2,0.0,91.0
+MED025,Loperamide 2mg,Gastrointestinal,3.0,2026-07-22,3,0.0,91.0
+MED025,Loperamide 2mg,Gastrointestinal,3.0,2026-07-23,4,0.0,91.0
+MED025,Loperamide 2mg,Gastrointestinal,3.0,2026-07-24,5,0.0,91.0
+MED025,Loperamide 2mg,Gastrointestinal,3.0,2026-07-25,6,0.0,91.0
+MED025,Loperamide 2mg,Gastrointestinal,3.0,2026-07-26,7,0.0,91.0
+MED026,ORS Ready-to-Drink,Electrolyte,15.0,2026-07-20,1,0.0,117.0
+MED026,ORS Ready-to-Drink,Electrolyte,15.0,2026-07-21,2,0.0,117.0
+MED026,ORS Ready-to-Drink,Electrolyte,15.0,2026-07-22,3,0.0,117.0
+MED026,ORS Ready-to-Drink,Electrolyte,15.0,2026-07-23,4,0.0,117.0
+MED026,ORS Ready-to-Drink,Electrolyte,15.0,2026-07-24,5,0.0,117.0
+MED026,ORS Ready-to-Drink,Electrolyte,15.0,2026-07-25,6,0.0,117.0
+MED026,ORS Ready-to-Drink,Electrolyte,15.0,2026-07-26,7,0.0,117.0
+MED027,Insulin Pen,Diabetes,450.0,2026-07-20,1,0.0,113.0
+MED027,Insulin Pen,Diabetes,450.0,2026-07-21,2,0.0,113.0
+MED027,Insulin Pen,Diabetes,450.0,2026-07-22,3,0.0,113.0
+MED027,Insulin Pen,Diabetes,450.0,2026-07-23,4,0.0,113.0
+MED027,Insulin Pen,Diabetes,450.0,2026-07-24,5,0.0,113.0
+MED027,Insulin Pen,Diabetes,450.0,2026-07-25,6,0.0,113.0
+MED027,Insulin Pen,Diabetes,450.0,2026-07-26,7,0.0,113.0
+MED028,Glucometer Strips,Diabetes,18.0,2026-07-20,1,0.0,162.0
+MED028,Glucometer Strips,Diabetes,18.0,2026-07-21,2,0.0,162.0
+MED028,Glucometer Strips,Diabetes,18.0,2026-07-22,3,0.0,162.0
+MED028,Glucometer Strips,Diabetes,18.0,2026-07-23,4,0.0,162.0
+MED028,Glucometer Strips,Diabetes,18.0,2026-07-24,5,0.0,162.0
+MED028,Glucometer Strips,Diabetes,18.0,2026-07-25,6,0.0,162.0
+MED028,Glucometer Strips,Diabetes,18.0,2026-07-26,7,0.0,162.0
+MED029,Losartan 50mg,Cardiovascular,4.0,2026-07-20,1,0.0,192.0
+MED029,Losartan 50mg,Cardiovascular,4.0,2026-07-21,2,0.0,192.0
+MED029,Losartan 50mg,Cardiovascular,4.0,2026-07-22,3,0.0,192.0
+MED029,Losartan 50mg,Cardiovascular,4.0,2026-07-23,4,0.0,192.0
+MED029,Losartan 50mg,Cardiovascular,4.0,2026-07-24,5,0.0,192.0
+MED029,Losartan 50mg,Cardiovascular,4.0,2026-07-25,6,0.0,192.0
+MED029,Losartan 50mg,Cardiovascular,4.0,2026-07-26,7,0.0,192.0
+MED030,Clopidogrel 75mg,Cardiovascular,6.0,2026-07-20,1,0.0,124.0
+MED030,Clopidogrel 75mg,Cardiovascular,6.0,2026-07-21,2,0.0,124.0
+MED030,Clopidogrel 75mg,Cardiovascular,6.0,2026-07-22,3,0.0,124.0
+MED030,Clopidogrel 75mg,Cardiovascular,6.0,2026-07-23,4,0.0,124.0
+MED030,Clopidogrel 75mg,Cardiovascular,6.0,2026-07-24,5,0.0,124.0
+MED030,Clopidogrel 75mg,Cardiovascular,6.0,2026-07-25,6,0.0,124.0
+MED030,Clopidogrel 75mg,Cardiovascular,6.0,2026-07-26,7,0.0,124.0
+MED031,Fexofenadine 120mg,Antihistamine,7.0,2026-07-20,1,0.0,207.0
+MED031,Fexofenadine 120mg,Antihistamine,7.0,2026-07-21,2,0.0,207.0
+MED031,Fexofenadine 120mg,Antihistamine,7.0,2026-07-22,3,0.0,207.0
+MED031,Fexofenadine 120mg,Antihistamine,7.0,2026-07-23,4,0.0,207.0
+MED031,Fexofenadine 120mg,Antihistamine,7.0,2026-07-24,5,0.0,207.0
+MED031,Fexofenadine 120mg,Antihistamine,7.0,2026-07-25,6,0.0,207.0
+MED031,Fexofenadine 120mg,Antihistamine,7.0,2026-07-26,7,0.0,207.0
+MED032,Montelukast 10mg,Respiratory,5.0,2026-07-20,1,0.0,129.0
+MED032,Montelukast 10mg,Respiratory,5.0,2026-07-21,2,0.0,129.0
+MED032,Montelukast 10mg,Respiratory,5.0,2026-07-22,3,0.0,129.0
+MED032,Montelukast 10mg,Respiratory,5.0,2026-07-23,4,0.0,129.0
+MED032,Montelukast 10mg,Respiratory,5.0,2026-07-24,5,0.0,129.0
+MED032,Montelukast 10mg,Respiratory,5.0,2026-07-25,6,0.0,129.0
+MED032,Montelukast 10mg,Respiratory,5.0,2026-07-26,7,0.0,129.0
+MED033,B-Complex Tablets,Vitamin,3.5,2026-07-20,1,0.0,162.0
+MED033,B-Complex Tablets,Vitamin,3.5,2026-07-21,2,0.0,162.0
+MED033,B-Complex Tablets,Vitamin,3.5,2026-07-22,3,0.0,162.0
+MED033,B-Complex Tablets,Vitamin,3.5,2026-07-23,4,0.0,162.0
+MED033,B-Complex Tablets,Vitamin,3.5,2026-07-24,5,0.0,162.0
+MED033,B-Complex Tablets,Vitamin,3.5,2026-07-25,6,0.0,162.0
+MED033,B-Complex Tablets,Vitamin,3.5,2026-07-26,7,0.0,162.0
+MED034,Zinc Tablets,Vitamin,2.5,2026-07-20,1,0.0,175.0
+MED034,Zinc Tablets,Vitamin,2.5,2026-07-21,2,0.0,175.0
+MED034,Zinc Tablets,Vitamin,2.5,2026-07-22,3,0.0,175.0
+MED034,Zinc Tablets,Vitamin,2.5,2026-07-23,4,0.0,175.0
+MED034,Zinc Tablets,Vitamin,2.5,2026-07-24,5,0.0,175.0
+MED034,Zinc Tablets,Vitamin,2.5,2026-07-25,6,0.0,175.0
+MED034,Zinc Tablets,Vitamin,2.5,2026-07-26,7,0.0,175.0
+MED035,Mupirocin Ointment,Dermatology,30.0,2026-07-20,1,0.0,216.0
+MED035,Mupirocin Ointment,Dermatology,30.0,2026-07-21,2,0.0,216.0
+MED035,Mupirocin Ointment,Dermatology,30.0,2026-07-22,3,0.0,216.0
+MED035,Mupirocin Ointment,Dermatology,30.0,2026-07-23,4,0.0,216.0
+MED035,Mupirocin Ointment,Dermatology,30.0,2026-07-24,5,0.0,216.0
+MED035,Mupirocin Ointment,Dermatology,30.0,2026-07-25,6,0.0,216.0
+MED035,Mupirocin Ointment,Dermatology,30.0,2026-07-26,7,0.0,216.0
+MED036,Clotrimazole Cream,Dermatology,20.0,2026-07-20,1,0.0,216.0
+MED036,Clotrimazole Cream,Dermatology,20.0,2026-07-21,2,0.0,216.0
+MED036,Clotrimazole Cream,Dermatology,20.0,2026-07-22,3,0.0,216.0
+MED036,Clotrimazole Cream,Dermatology,20.0,2026-07-23,4,0.0,216.0
+MED036,Clotrimazole Cream,Dermatology,20.0,2026-07-24,5,0.0,216.0
+MED036,Clotrimazole Cream,Dermatology,20.0,2026-07-25,6,0.0,216.0
+MED036,Clotrimazole Cream,Dermatology,20.0,2026-07-26,7,0.0,216.0
+MED037,Hydrocortisone Cream,Dermatology,18.0,2026-07-20,1,0.0,94.0
+MED037,Hydrocortisone Cream,Dermatology,18.0,2026-07-21,2,0.0,94.0
+MED037,Hydrocortisone Cream,Dermatology,18.0,2026-07-22,3,0.0,94.0
+MED037,Hydrocortisone Cream,Dermatology,18.0,2026-07-23,4,0.0,94.0
+MED037,Hydrocortisone Cream,Dermatology,18.0,2026-07-24,5,0.0,94.0
+MED037,Hydrocortisone Cream,Dermatology,18.0,2026-07-25,6,0.0,94.0
+MED037,Hydrocortisone Cream,Dermatology,18.0,2026-07-26,7,0.0,94.0
+MED038,Pregnancy Test Kit,Diagnostic,25.0,2026-07-20,1,0.0,148.0
+MED038,Pregnancy Test Kit,Diagnostic,25.0,2026-07-21,2,0.0,148.0
+MED038,Pregnancy Test Kit,Diagnostic,25.0,2026-07-22,3,0.0,148.0
+MED038,Pregnancy Test Kit,Diagnostic,25.0,2026-07-23,4,0.0,148.0
+MED038,Pregnancy Test Kit,Diagnostic,25.0,2026-07-24,5,0.0,148.0
+MED038,Pregnancy Test Kit,Diagnostic,25.0,2026-07-25,6,0.0,148.0
+MED038,Pregnancy Test Kit,Diagnostic,25.0,2026-07-26,7,0.0,148.0
+MED039,Digital Thermometer,Device,120.0,2026-07-20,1,0.0,161.0
+MED039,Digital Thermometer,Device,120.0,2026-07-21,2,0.0,161.0
+MED039,Digital Thermometer,Device,120.0,2026-07-22,3,0.0,161.0
+MED039,Digital Thermometer,Device,120.0,2026-07-23,4,0.0,161.0
+MED039,Digital Thermometer,Device,120.0,2026-07-24,5,0.0,161.0
+MED039,Digital Thermometer,Device,120.0,2026-07-25,6,0.0,161.0
+MED039,Digital Thermometer,Device,120.0,2026-07-26,7,0.0,161.0
+MED040,Bandage Roll,First Aid,12.0,2026-07-20,1,0.0,180.0
+MED040,Bandage Roll,First Aid,12.0,2026-07-21,2,0.0,180.0
+MED040,Bandage Roll,First Aid,12.0,2026-07-22,3,0.0,180.0
+MED040,Bandage Roll,First Aid,12.0,2026-07-23,4,0.0,180.0
+MED040,Bandage Roll,First Aid,12.0,2026-07-24,5,0.0,180.0
+MED040,Bandage Roll,First Aid,12.0,2026-07-25,6,0.0,180.0
+MED040,Bandage Roll,First Aid,12.0,2026-07-26,7,0.0,180.0
+MED041,Antiseptic Solution,First Aid,45.0,2026-07-20,1,0.0,206.0
+MED041,Antiseptic Solution,First Aid,45.0,2026-07-21,2,0.0,206.0
+MED041,Antiseptic Solution,First Aid,45.0,2026-07-22,3,0.0,206.0
+MED041,Antiseptic Solution,First Aid,45.0,2026-07-23,4,0.0,206.0
+MED041,Antiseptic Solution,First Aid,45.0,2026-07-24,5,0.0,206.0
+MED041,Antiseptic Solution,First Aid,45.0,2026-07-25,6,0.0,206.0
+MED041,Antiseptic Solution,First Aid,45.0,2026-07-26,7,0.0,206.0
+MED042,Hand Sanitizer 100ml,Hygiene,35.0,2026-07-20,1,0.0,150.0
+MED042,Hand Sanitizer 100ml,Hygiene,35.0,2026-07-21,2,0.0,150.0
+MED042,Hand Sanitizer 100ml,Hygiene,35.0,2026-07-22,3,0.0,150.0
+MED042,Hand Sanitizer 100ml,Hygiene,35.0,2026-07-23,4,0.0,150.0
+MED042,Hand Sanitizer 100ml,Hygiene,35.0,2026-07-24,5,0.0,150.0
+MED042,Hand Sanitizer 100ml,Hygiene,35.0,2026-07-25,6,0.0,150.0
+MED042,Hand Sanitizer 100ml,Hygiene,35.0,2026-07-26,7,0.0,150.0
+MED043,Surgical Masks Pack,Hygiene,25.0,2026-07-20,1,0.0,193.0
+MED043,Surgical Masks Pack,Hygiene,25.0,2026-07-21,2,0.0,193.0
+MED043,Surgical Masks Pack,Hygiene,25.0,2026-07-22,3,0.0,193.0
+MED043,Surgical Masks Pack,Hygiene,25.0,2026-07-23,4,0.0,193.0
+MED043,Surgical Masks Pack,Hygiene,25.0,2026-07-24,5,0.0,193.0
+MED043,Surgical Masks Pack,Hygiene,25.0,2026-07-25,6,0.0,193.0
+MED043,Surgical Masks Pack,Hygiene,25.0,2026-07-26,7,0.0,193.0
+MED044,Calamine Lotion,Dermatology,38.0,2026-07-20,1,0.0,117.0
+MED044,Calamine Lotion,Dermatology,38.0,2026-07-21,2,0.0,117.0
+MED044,Calamine Lotion,Dermatology,38.0,2026-07-22,3,0.0,117.0
+MED044,Calamine Lotion,Dermatology,38.0,2026-07-23,4,0.0,117.0
+MED044,Calamine Lotion,Dermatology,38.0,2026-07-24,5,0.0,117.0
+MED044,Calamine Lotion,Dermatology,38.0,2026-07-25,6,0.0,117.0
+MED044,Calamine Lotion,Dermatology,38.0,2026-07-26,7,0.0,117.0
+MED045,Vitamin D3 Capsules,Vitamin,8.0,2026-07-20,1,0.0,105.0
+MED045,Vitamin D3 Capsules,Vitamin,8.0,2026-07-21,2,0.0,105.0
+MED045,Vitamin D3 Capsules,Vitamin,8.0,2026-07-22,3,0.0,105.0
+MED045,Vitamin D3 Capsules,Vitamin,8.0,2026-07-23,4,0.0,105.0
+MED045,Vitamin D3 Capsules,Vitamin,8.0,2026-07-24,5,0.0,105.0
+MED045,Vitamin D3 Capsules,Vitamin,8.0,2026-07-25,6,0.0,105.0
+MED045,Vitamin D3 Capsules,Vitamin,8.0,2026-07-26,7,0.0,105.0
+MED046,Aspirin 75mg,Cardiovascular,2.5,2026-07-20,1,0.0,127.0
+MED046,Aspirin 75mg,Cardiovascular,2.5,2026-07-21,2,0.0,127.0
+MED046,Aspirin 75mg,Cardiovascular,2.5,2026-07-22,3,0.0,127.0
+MED046,Aspirin 75mg,Cardiovascular,2.5,2026-07-23,4,0.0,127.0
+MED046,Aspirin 75mg,Cardiovascular,2.5,2026-07-24,5,0.0,127.0
+MED046,Aspirin 75mg,Cardiovascular,2.5,2026-07-25,6,0.0,127.0
+MED046,Aspirin 75mg,Cardiovascular,2.5,2026-07-26,7,0.0,127.0
+MED047,Domperidone 10mg,Gastrointestinal,3.5,2026-07-20,1,0.0,158.0
+MED047,Domperidone 10mg,Gastrointestinal,3.5,2026-07-21,2,0.0,158.0
+MED047,Domperidone 10mg,Gastrointestinal,3.5,2026-07-22,3,0.0,158.0
+MED047,Domperidone 10mg,Gastrointestinal,3.5,2026-07-23,4,0.0,158.0
+MED047,Domperidone 10mg,Gastrointestinal,3.5,2026-07-24,5,0.0,158.0
+MED047,Domperidone 10mg,Gastrointestinal,3.5,2026-07-25,6,0.0,158.0
+MED047,Domperidone 10mg,Gastrointestinal,3.5,2026-07-26,7,0.0,158.0
+MED048,Metronidazole 400mg,Antibiotic,4.0,2026-07-20,1,0.0,180.0
+MED048,Metronidazole 400mg,Antibiotic,4.0,2026-07-21,2,0.0,180.0
+MED048,Metronidazole 400mg,Antibiotic,4.0,2026-07-22,3,0.0,180.0
+MED048,Metronidazole 400mg,Antibiotic,4.0,2026-07-23,4,0.0,180.0
+MED048,Metronidazole 400mg,Antibiotic,4.0,2026-07-24,5,0.0,180.0
+MED048,Metronidazole 400mg,Antibiotic,4.0,2026-07-25,6,0.0,180.0
+MED048,Metronidazole 400mg,Antibiotic,4.0,2026-07-26,7,0.0,180.0
+MED049,Pain Relief Spray,Analgesic,55.0,2026-07-20,1,0.0,95.0
+MED049,Pain Relief Spray,Analgesic,55.0,2026-07-21,2,0.0,95.0
+MED049,Pain Relief Spray,Analgesic,55.0,2026-07-22,3,0.0,95.0
+MED049,Pain Relief Spray,Analgesic,55.0,2026-07-23,4,0.0,95.0
+MED049,Pain Relief Spray,Analgesic,55.0,2026-07-24,5,0.0,95.0
+MED049,Pain Relief Spray,Analgesic,55.0,2026-07-25,6,0.0,95.0
+MED049,Pain Relief Spray,Analgesic,55.0,2026-07-26,7,0.0,95.0
+MED050,Glucose Powder 100g,Electrolyte,22.0,2026-07-20,1,0.0,104.0
+MED050,Glucose Powder 100g,Electrolyte,22.0,2026-07-21,2,0.0,104.0
+MED050,Glucose Powder 100g,Electrolyte,22.0,2026-07-22,3,0.0,104.0
+MED050,Glucose Powder 100g,Electrolyte,22.0,2026-07-23,4,0.0,104.0
+MED050,Glucose Powder 100g,Electrolyte,22.0,2026-07-24,5,0.0,104.0
+MED050,Glucose Powder 100g,Electrolyte,22.0,2026-07-25,6,0.0,104.0
+MED050,Glucose Powder 100g,Electrolyte,22.0,2026-07-26,7,0.0,104.0

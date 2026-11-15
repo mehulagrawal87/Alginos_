@@ -1,0 +1,318 @@
+{
+    "demand_forecasting": {
+        "Baseline (Moving Average)": {
+            "val": {
+                "mae": 0.0,
+                "rmse": 0.0,
+                "wape": 0.0
+            },
+            "test": {
+                "mae": 0.0,
+                "rmse": 0.0,
+                "wape": 0.0
+            }
+        },
+        "Linear Regression": {
+            "val": {
+                "mae": 0.000163,
+                "rmse": 0.000501,
+                "wape": 0.220207
+            },
+            "test": {
+                "mae": 0.000136,
+                "rmse": 0.000456,
+                "wape": 0.184248
+            }
+        },
+        "Random Forest Regressor": {
+            "val": {
+                "mae": 6e-06,
+                "rmse": 0.000227,
+                "wape": 0.008333
+            },
+            "test": {
+                "mae": 0.0,
+                "rmse": 0.0,
+                "wape": 0.0
+            }
+        }
+    },
+    "expiry_classification": {
+        "Rule-Based Baseline": {
+            "val": {
+                "accuracy": 1.0,
+                "precision_macro": 1.0,
+                "recall_macro": 1.0,
+                "f1_macro": 1.0,
+                "precision_weighted": 1.0,
+                "recall_weighted": 1.0,
+                "f1_weighted": 1.0,
+                "confusion_matrix": [
+                    [
+                        59,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        8,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        83
+                    ]
+                ],
+                "per_class": {
+                    "High": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Medium": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Low": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                }
+            },
+            "test": {
+                "accuracy": 1.0,
+                "precision_macro": 1.0,
+                "recall_macro": 1.0,
+                "f1_macro": 1.0,
+                "precision_weighted": 1.0,
+                "recall_weighted": 1.0,
+                "f1_weighted": 1.0,
+                "confusion_matrix": [
+                    [
+                        50,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        15,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        85
+                    ]
+                ],
+                "per_class": {
+                    "High": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Medium": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Low": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                }
+            }
+        },
+        "Logistic Regression": {
+            "val": {
+                "accuracy": 0.9533,
+                "precision_macro": 0.8444,
+                "recall_macro": 0.9719,
+                "f1_macro": 0.8839,
+                "precision_weighted": 0.9751,
+                "recall_weighted": 0.9533,
+                "f1_weighted": 0.9594,
+                "confusion_matrix": [
+                    [
+                        59,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        8,
+                        0
+                    ],
+                    [
+                        0,
+                        7,
+                        76
+                    ]
+                ],
+                "per_class": {
+                    "High": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Medium": {
+                        "precision": 0.5333,
+                        "recall": 1.0,
+                        "f1": 0.6957
+                    },
+                    "Low": {
+                        "precision": 1.0,
+                        "recall": 0.9157,
+                        "f1": 0.956
+                    }
+                }
+            },
+            "test": {
+                "accuracy": 0.92,
+                "precision_macro": 0.8417,
+                "recall_macro": 0.9108,
+                "f1_macro": 0.8649,
+                "precision_weighted": 0.9432,
+                "recall_weighted": 0.92,
+                "f1_weighted": 0.9271,
+                "confusion_matrix": [
+                    [
+                        48,
+                        2,
+                        0
+                    ],
+                    [
+                        2,
+                        13,
+                        0
+                    ],
+                    [
+                        0,
+                        8,
+                        77
+                    ]
+                ],
+                "per_class": {
+                    "High": {
+                        "precision": 0.96,
+                        "recall": 0.96,
+                        "f1": 0.96
+                    },
+                    "Medium": {
+                        "precision": 0.5652,
+                        "recall": 0.8667,
+                        "f1": 0.6842
+                    },
+                    "Low": {
+                        "precision": 1.0,
+                        "recall": 0.9059,
+                        "f1": 0.9506
+                    }
+                }
+            }
+        },
+        "Random Forest Classifier": {
+            "val": {
+                "accuracy": 1.0,
+                "precision_macro": 1.0,
+                "recall_macro": 1.0,
+                "f1_macro": 1.0,
+                "precision_weighted": 1.0,
+                "recall_weighted": 1.0,
+                "f1_weighted": 1.0,
+                "confusion_matrix": [
+                    [
+                        59,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        8,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        83
+                    ]
+                ],
+                "per_class": {
+                    "High": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Medium": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Low": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                }
+            },
+            "test": {
+                "accuracy": 1.0,
+                "precision_macro": 1.0,
+                "recall_macro": 1.0,
+                "f1_macro": 1.0,
+                "precision_weighted": 1.0,
+                "recall_weighted": 1.0,
+                "f1_weighted": 1.0,
+                "confusion_matrix": [
+                    [
+                        50,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        15,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        85
+                    ]
+                ],
+                "per_class": {
+                    "High": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Medium": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    },
+                    "Low": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                }
+            }
+        }
+    },
+    "limitations": {
+        "demand_forecasting": {
+            "data_sparsity": "Extreme zero-inflation (99.98% zero sales across historical 200 days). While models learn low average demand accurately, point forecasts for sudden demand spikes in rare medicines have inherent uncertainty.",
+            "horizon_decay": "Autoregressive multi-step forecasting compounds errors over longer horizons (> 14 days). Re-training or weekly batch refreshes are recommended.",
+            "exogenous_factors": "The synthetic dataset lacks epidemiological disease outbreak feeds, seasonal epidemic indicators, or doctor prescription flow data that drive real-world pharmacy surges."
+        },
+        "expiry_risk_classification": {
+            "synthetic_rule_proxy": "CRITICAL METHODOLOGY NOTE: The 'expiry_risk' ground-truth label was constructed via a deterministic heuristic rule (days_to_expiry <= 90 & unsold_ratio >= 0.30). High model accuracy reflects learning this heuristic surface, NOT predicting unobserved real-world clinical wastage.",
+            "static_snapshots": "Batch inventory records are synthetic snapshots taken every 8 days. In live operations, real-time barcode scans and FIFO/FEFO dispense events provide continuous state updates.",
+            "advisory_guardrail": "Outputs serve strictly as human decision support for pharmacy inventory managers and must never be used for autonomous disposal or clinical treatment substitution."
+        }
+    }
+}

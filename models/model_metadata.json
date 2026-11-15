@@ -1,0 +1,106 @@
+{
+    "timestamp": "2026-11-15T22:12:27.618873",
+    "project": "Pharmacy Medicine Demand & Expiry-Risk Forecasting System",
+    "organization": "Algions AI Labs Private Limited",
+    "random_seed": 42,
+    "demand_model": {
+        "best_model": "Random Forest Regressor",
+        "features_numeric": [
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_7",
+            "lag_14",
+            "lag_21",
+            "roll_mean_7",
+            "roll_std_7",
+            "roll_mean_14",
+            "roll_std_14",
+            "stock_on_hand",
+            "unit_price_inr",
+            "promotion",
+            "day_of_week_num",
+            "day_of_month",
+            "month",
+            "is_weekend"
+        ],
+        "features_categorical": [
+            "category"
+        ],
+        "metrics_test": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "wape": 0.0
+        }
+    },
+    "expiry_model": {
+        "best_model": "Random Forest Classifier",
+        "features_numeric": [
+            "batch_quantity_remaining",
+            "average_daily_sales_30d",
+            "days_to_expiry",
+            "projected_demand_before_expiry",
+            "projected_unsold_quantity",
+            "projected_unsold_ratio",
+            "unit_price_inr"
+        ],
+        "features_categorical": [
+            "category"
+        ],
+        "metrics_test": {
+            "accuracy": 1.0,
+            "precision_macro": 1.0,
+            "recall_macro": 1.0,
+            "f1_macro": 1.0,
+            "precision_weighted": 1.0,
+            "recall_weighted": 1.0,
+            "f1_weighted": 1.0,
+            "confusion_matrix": [
+                [
+                    50,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    85
+                ]
+            ],
+            "per_class": {
+                "High": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0
+                },
+                "Medium": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0
+                },
+                "Low": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0
+                }
+            }
+        }
+    },
+    "artifacts_saved": [
+        "models/demand_preprocessor.joblib",
+        "models/demand_baseline.joblib",
+        "models/demand_forecaster_lr.joblib",
+        "models/demand_forecaster_rf.joblib",
+        "models/demand_best_model.joblib",
+        "models/expiry_preprocessor.joblib",
+        "models/expiry_baseline.joblib",
+        "models/expiry_classifier_lr.joblib",
+        "models/expiry_classifier_rf.joblib",
+        "models/expiry_best_model.joblib"
+    ]
+}

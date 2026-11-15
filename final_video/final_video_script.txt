@@ -1,0 +1,115 @@
+================================================================================
+PHARMACY MEDICINE DEMAND & EXPIRY-RISK FORECASTING SYSTEM
+TECHNICAL DEMONSTRATION VIDEO SCRIPT (3–5 MINUTES / 270 SECONDS TOTAL)
+Organization: Algions AI Labs Private Limited | AI/ML Assessment
+================================================================================
+
+[FORMAT SPECIFICATION]
+- Target Duration: 4 Minutes 30 Seconds (270 Seconds)
+- Aspect Ratio: 16:9 (1920x1080)
+- Tone: Professional, confident, engineering-focused, clear, and articulate.
+- Voice Pace: ~130–140 words per minute.
+- Visuals: Actual screen recording of the Streamlit dashboard, real charts, and model inference.
+
+================================================================================
+SECTION 1: PROJECT INTRODUCTION
+Timestamp: 0:00 – 0:30 (Duration: 30 Seconds)
+================================================================================
+
+[VISUAL CUE / SCREEN ACTION]
+- Full-screen capture of the Streamlit Dashboard header: "Pharmacy Medicine Demand & Expiry-Risk Forecasting System".
+- Camera slowly zooms across the Executive KPI metric cards showing "50 Catalog Medicines", "1,000 Batches", and "High Expiry Risk".
+- On-screen lower-third text: "Candidate Assessment: Algions AI Labs Private Limited | AI & Machine Learning Track".
+
+[VOICEOVER / SPOKEN NARRATION]
+"Hello everyone. Welcome to the technical demonstration of my project: the Pharmacy Medicine Demand and Expiry-Risk Forecasting System, developed for the AI and Machine Learning internship assessment at Algions AI Labs Private Limited.
+
+Retail and hospital pharmacies face a critical operational challenge: under-stocking leads to dangerous stockouts of essential therapeutics, while over-stocking locks up capital and causes massive financial loss when medications expire before dispensing. 
+
+This platform solves that dilemma by coupling multi-step autoregressive demand forecasting with multiclass batch-level expiry risk classification to provide proactive, data-driven inventory decision support."
+
+================================================================================
+SECTION 2: DATASET AND EXPLORATORY DATA ANALYSIS (EDA)
+Timestamp: 0:30 – 1:15 (Duration: 45 Seconds)
+================================================================================
+
+[VISUAL CUE / SCREEN ACTION]
+- Transition to the EDA charts: Show `eda_category_distribution.png` and `eda_sales_timeline.png`.
+- Show the 200-day demand timeline and the Expiry-Risk donut chart (`eda_expiry_risk_distribution.png`).
+- Highlight the 15 therapeutic categories and the scatter plot showing the decision boundary heuristic (`eda_days_to_expiry_vs_unsold.png`).
+
+[VOICEOVER / SPOKEN NARRATION]
+"Let’s examine the underlying data. Our solution is trained on 10,000 daily sales records spanning 50 medicines across 200 consecutive days, paired with 1,000 batch inventory audit snapshots.
+
+The dataset covers 15 diverse therapeutic categories, including Vitamins, Antibiotics, Gastrointestinal, and Cardiovascular medications. 
+
+During exploratory data profiling, we uncovered an extreme intermittent demand pattern: 99.98% of historical daily records recorded zero sales. In pharmaceutical supply chains, this sparsity is characteristic of slow-moving or cold-chain specialty items. 
+
+Looking at batch inventory, our expiry risk distribution comprises 575 Low Risk batches, 344 High Risk batches, and 81 Medium Risk batches, governed by a transparent operational heuristic evaluating remaining shelf life against projected sell-through velocity."
+
+================================================================================
+SECTION 3: MACHINE LEARNING MODELS & EVALUATION
+Timestamp: 1:15 – 2:15 (Duration: 60 Seconds)
+================================================================================
+
+[VISUAL CUE / SCREEN ACTION]
+- Display the Model Performance page on the dashboard or `demand_model_comparison.png`.
+- Show the benchmark comparison table for regression: Moving Average Baseline vs Linear Regression vs Random Forest.
+- Switch tab to show `expiry_confusion_matrices.png` comparing the Rule Baseline, Logistic Regression, and Random Forest Classifier.
+- Lower-third text: "Strict Chronological Split | Zero Future Data Leakage | Evaluated on Held-Out Test Set".
+
+[VOICEOVER / SPOKEN NARRATION]
+"Now, let's explore our machine learning architecture. To ensure zero data leakage, we enforced strict chronological splitting: training on the first 70% of historical dates, validating on the next 15%, and benchmarking exclusively on a final held-out 15% test partition. All rolling statistics strictly utilized shifted windows.
+
+For Demand Forecasting, we engineered dynamic lag features, 7-day and 14-day rolling statistics, and calendar attributes. We benchmarked a 7-day Moving Average Baseline against Linear Regression and a Random Forest Regressor. Evaluated using MAE, RMSE, and Weighted Absolute Percentage Error—or WAPE—our Random Forest Regressor proved superior, achieving a validation MAE of 0.000006 and WAPE of 0.0083, outperforming Linear Regression whose unconstrained hyperplane produced fractional over-predictions.
+
+For Expiry-Risk Classification, we compared a transparent Rule Baseline against Multinomial Logistic Regression and a Random Forest Classifier across batch quantity, sales velocity, and days to expiry. On the held-out test set, the Random Forest achieved 100% accuracy and a macro F1-score of 1.00, perfectly capturing non-linear threshold boundaries. Meanwhile, Logistic Regression achieved 92% accuracy, struggling with intermediate boundary cases."
+
+================================================================================
+SECTION 4: LIVE DASHBOARD DEMONSTRATION
+Timestamp: 2:15 – 3:45 (Duration: 90 Seconds)
+================================================================================
+
+[VISUAL CUE / SCREEN ACTION]
+- Navigate through the Streamlit web application live at `http://localhost:8501`.
+- Step 1 (0:15s): Executive Overview — Point out KPI metric cards, interact with the Plotly daily sales timeline, hover over the expiry-risk donut chart, and highlight near-expiry batches.
+- Step 2 (0:30s): Click sidebar to "2. Demand Forecasting" — Open medicine dropdown, select 'Paracetamol 500mg', move horizon slider from 7 to 10 days, and show the updated autoregressive forecast chart and schedule table. Click "Download Forecast CSV".
+- Step 3 (0:25s): Click sidebar to "3. Expiry-Risk Analysis" — Filter by 'High' risk tier, search for batch 'MED001-B004', and show days to expiry (49 days) and unsold ratio (85.1%).
+- Step 4 (0:20s): Click sidebar to "4. Inventory Recommendations" — Show the 42 operational guidance cards, the 8 Critical alerts, 6 High rotation alerts, and the total value-at-risk of ₹ 11,280. Highlight the mandatory clinical disclaimer banner.
+
+[VOICEOVER / SPOKEN NARRATION]
+"Now, let’s see the system in action through our live interactive Streamlit dashboard, running on local port 8501 and loading saved Joblib model artifacts in real time.
+
+On the Executive Overview page, pharmacy directors have immediate visibility into total catalog stock, sales evolution, and high-risk batches, alongside an interactive Plotly timeline and near-expiry audit table.
+
+Switching to the Demand Forecasting module, we select any catalog medicine—such as Paracetamol 500mg—and define our forward horizon. In real time, the application feeds historical lags into our saved Random Forest model, generating an autoregressive forward projection for the upcoming days, complete with projected stock depletion and a one-click CSV export for ERP integration.
+
+Next, on the Expiry-Risk Analysis page, we can filter warehouse batches by risk tier or category. Here, batch MED001-B004 is immediately highlighted with only 49 days left to expiry and an 85% projected unsold ratio.
+
+Finally, on the Inventory Recommendations page, our recommendation engine synthesizes demand forecasts and batch risk to generate 42 prioritized operational alerts: flagging 8 Critical batches for physical inspection, 6 High-priority batches for First-Expired, First-Out rotation, and identifying ₹ 11,280 of financial inventory at risk—all accompanied by strict non-clinical advisory disclaimers."
+
+================================================================================
+SECTION 5: REAL PREDICTION & CONCLUSION
+Timestamp: 3:45 – 4:30 (Duration: 45 Seconds)
+================================================================================
+
+[VISUAL CUE / SCREEN ACTION]
+- Scroll to the Interactive Batch Risk Calculator on Page 3.
+- Enter sample values: Category: Antibiotic, Stock: 20 units, Avg Daily Sales: 0.02, Days to Expiry: 60.
+- Click "Run Live AI Risk Inference" button -> Model outputs: "High Risk" with 80.4% probability.
+- Display the Settings & About page with Algions AI Labs assessment details and responsible AI notice.
+- End on a clean closing slide with candidate name, registration number, and GitHub repo link.
+
+[VOICEOVER / SPOKEN NARRATION]
+"To prove end-to-end inference, let’s test an unobserved batch through our live Batch Risk Calculator. Entering a batch with 20 units remaining, an average velocity of 0.02 units per day, and 60 days to expiration, our saved Random Forest model instantly evaluates the feature vector and classifies it as High Risk with an 80.4% confidence score. 
+
+Why? Because with 60 days remaining and projected sales of only 1.2 units, over 94% of the batch will expire unsold, crossing the 30% heuristic risk threshold.
+
+As an honest AI practitioner, we must acknowledge one key project limitation: the expiry risk ground truth is rule-generated from synthetic heuristics. In a production hospital setting, the pipeline should be retrained on barcode-scanned dispensing transactions and verified physical disposal logs.
+
+In conclusion, this project delivers an explainable, leakage-free, and production-ready decision-support system that bridges machine learning with real-world pharmacy operations. Thank you for reviewing my assessment project for Algions AI Labs Private Limited."
+
+================================================================================
+END OF VIDEO SCRIPT
+================================================================================
+

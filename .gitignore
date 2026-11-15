@@ -1,0 +1,28 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# Environment variables & secrets (Security guideline)
+.env
+.env.local
+*.pem
+*.key
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+

@@ -1,0 +1,4 @@
+Model,Val Accuracy,Val Macro F1,Val Macro Recall,Test Accuracy,Test Macro Precision,Test Macro Recall,Test Macro F1,Test Weighted F1
+Rule-Based Baseline,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Logistic Regression,0.9533,0.8839,0.9719,0.92,0.8417,0.9108,0.8649,0.9271
+Random Forest Classifier,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
